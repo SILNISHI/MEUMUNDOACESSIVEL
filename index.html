@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meu Mundo Acessível</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body.high-contrast { background-color: #000; color: #fff; }
+    .high-contrast img { border: 2px solid #fff; }
+  </style>
+</head>
+<body class="bg-light text-dark">
+  <header class="container py-4 text-center">
+    <h1>🌍 Meu Mundo Acessível</h1>
+    <nav>
+      <a href="index.html" class="btn btn-outline-primary m-1">Início</a>
+      <a href="biografia.html" class="btn btn-outline-primary m-1">Biografia</a>
+      <a href="contato.html" class="btn btn-outline-primary m-1">Contato</a>
+      <a href="recursos.html" class="btn btn-outline-primary m-1">Recursos</a>
+    </nav>
+    <button onclick="document.body.classList.toggle('high-contrast')" class="btn btn-dark mt-3">Modo Alto Contraste</button>
+  </header>
+
+  <main class="container my-5">
+    <section>
+      <h2>Bem-vindo!</h2>
+      <p>Este site foi criado como parte de um projeto escolar sobre acessibilidade na internet. Aqui você vai conhecer um pouco sobre mim e aprender como tornar a web mais inclusiva.</p>
+      <img src="imagens/violao.jpg" alt="Pessoa tocando violão em uma sala iluminada" class="img-fluid rounded">
+    </section>
+  </main>
+
+  <footer class="container text-center py-4">
+    <p>Projeto desenvolvido por [Silvia Nishi] com foco em acessibilidade 💙</p>
+
+  </footer>
+</body>
+</html>
